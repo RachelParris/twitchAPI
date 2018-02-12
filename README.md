@@ -14,7 +14,7 @@ Coming Soon.
 
 * HTML5
 * vanilla CSS3
-* JavaScript
+* JavaScript/ES6
 * jQuery
 * AJAX
 
