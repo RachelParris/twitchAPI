@@ -16,6 +16,7 @@ Coming Soon.
 *CSS3
 *JavaScript
 *jQuery
+* AJAX
 
 ### Contributers
 
