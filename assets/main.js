@@ -24,7 +24,7 @@ $(document).ready(() => {
 
 		if (res.stream === null) {
 
-			// TODO Use placeholder stuff for offline users
+			// TODO Use placeholders for offline users
 			let newBox = $('<div class="item">');
 			let user = "User is offline.";
 			newBox.append(user);
@@ -32,6 +32,7 @@ $(document).ready(() => {
 
 		} else {
 
+			// Properties pulled from JSON
 			let channelName = res.stream.channel.name;
 			let logo = res.stream.channel.logo;
 			let game = res.stream.channel.game;
@@ -41,6 +42,7 @@ $(document).ready(() => {
 			let followers = res.stream.channel.followers;
 			let channelURL = res.stream.channel.url;
 
+			// Template for each channel
 			let newBox = $(
 				`<div class="item">
 					<div class="image">
@@ -59,7 +61,7 @@ $(document).ready(() => {
 				</div>`
 			);
 
-			// newBox.append(user);
+			// Prepend each channel to #channels
 			$("#channels").prepend(newBox);
 		}
 	}

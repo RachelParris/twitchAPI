@@ -12,10 +12,10 @@ Coming Soon.
 
 ### Built With
 
-*HTML5
-*CSS3
-*JavaScript
-*jQuery
+* HTML5
+* vanilla CSS3
+* JavaScript
+* jQuery
 * AJAX
 
 ### Contributers
